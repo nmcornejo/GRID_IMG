@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(197, 250, 232);
+    text-align: center;
+    margin: 5px;
+}
+
+.tit {background-color: black;
+    color: white;
+    padding: 20px;
+    font-size: 1.5vw;
+
+}
+h1{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+.contenedor {
+    display: grid;
+    gap: 50px;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    
+  }
+  
+.contenedor img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
